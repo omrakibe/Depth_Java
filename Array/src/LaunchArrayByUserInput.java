@@ -9,15 +9,15 @@ public class LaunchArrayByUserInput
         System.out.print("Enter the Size of Students: ");
         int n = scan.nextInt();
 
-        int []hello = new int[n];
+        int[] hello = new int[n];
 
-        for(int i=0; i<hello.length; i++)
+        for (int i = 0; i < hello.length; i++)
         {
             System.out.print("Enter the RollNo of Student " + i + " : ");
             hello[i] = scan.nextInt();
         }
 
-        for (int i: hello)
+        for (int i : hello)
         {
             System.out.println(i);
         }
