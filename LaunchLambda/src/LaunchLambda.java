@@ -37,7 +37,8 @@ public class LaunchLambda
 //        tel.disp();
 
         //Lambda Exp
-        IAdd add1 = (String x, double y) -> {
+        IAdd add1 = (String x, double y) ->
+        {
             System.out.println(x + y);
         };
         add1.add("Om", 9);
@@ -50,7 +51,8 @@ public class LaunchLambda
         INum Num = x -> System.out.println(9);
         Num.num(3);
 
-        ITelusko telusko = () -> {
+        ITelusko telusko = () ->
+        {
             String a = "Hello world";
             return a;
         };

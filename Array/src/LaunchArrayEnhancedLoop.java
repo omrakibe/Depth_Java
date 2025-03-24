@@ -21,6 +21,7 @@ public class LaunchArrayEnhancedLoop
         System.out.println();
 
         int[][] arr1 = {{2, 3, 4}, {5, 6, 7}};
+        System.out.println("Array length: " + arr1.length);
 
         double[] arr3 = new double[]{2.4, 4.5, 5.9, 6.5};
 

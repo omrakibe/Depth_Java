@@ -17,7 +17,7 @@ public class LaunchLambda1
 
         IF2 f2 = x -> {
             int res = x+3;
-            return res;
+             return res;
         };
     }
 }
