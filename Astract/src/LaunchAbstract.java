@@ -2,7 +2,6 @@ abstract class Cars
 {
     public abstract void engine();
     final int a = 10;
-
 }
 
 class Ford extends Cars

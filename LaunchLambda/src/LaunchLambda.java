@@ -29,9 +29,10 @@ public class LaunchLambda
     {
 //        ITelusko tel = new ITelusko()
 //        {
-//            public void disp()
+//            public String disp()
 //            {
 //                System.out.println("Inside annonymous Inner class");
+//                return "Hello";
 //            }
 //        };
 //        tel.disp();

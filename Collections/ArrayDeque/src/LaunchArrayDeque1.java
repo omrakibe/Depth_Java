@@ -1,4 +1,4 @@
-public class Main
+public class LaunchArrayDeque1
 {
     public static void main(String[] args)
     {

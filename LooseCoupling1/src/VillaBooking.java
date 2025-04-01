@@ -9,7 +9,7 @@ public class VillaBooking
 
     public boolean fetchMap()
     {
-        return map.fetchApi("mapapikeyfactor");
+        return map.fetchApi("mapApiKeyFactor");
     }
 
 }
