@@ -1,7 +1,15 @@
+import java.util.ArrayDeque;
+
 public class LaunchArrayDeque1
 {
-    public static void main(String[] args)
+    public static void main(String [] args)
     {
-        System.out.println("Hello, World!");
+        ArrayDeque aDeque = new ArrayDeque();
+        aDeque.add(3);
+        aDeque.add(4);
+        aDeque.add(5);
+        aDeque.add(6);
+
+        System.out.println(aDeque);
     }
 }
