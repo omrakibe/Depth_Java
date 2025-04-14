@@ -2,6 +2,14 @@ import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+//class Hello {
+//
+//    int a;
+//    static void hel() {
+//
+//    }
+//}
+
 public class LaunchIterator1
 {
     public static void main(String[] args)
@@ -48,5 +56,9 @@ public class LaunchIterator1
             System.out.println(itr.next());
             lList.add(89);
         }
+
+//        listIterator lItr = lList.listIterator(lList.size());
+
+
     }
 }
