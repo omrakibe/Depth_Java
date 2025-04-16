@@ -1,6 +1,6 @@
 interface Hello <T>
 {
-    
+
 }
 class Generics <T> implements Hello <String>
 {
