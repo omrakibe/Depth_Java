@@ -19,7 +19,7 @@ public class LaunchArrayByUserInput
 
         for (int i : hello) //Enhanced loop
         {
-            System.out.println(i);
+            System.out.println(i); 
         }
     }
 }
