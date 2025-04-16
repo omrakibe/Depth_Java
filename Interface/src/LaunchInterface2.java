@@ -11,6 +11,12 @@ interface Telusko
     }
 }
 
+interface Om1 extends Telusko {
+    default void show() {
+        System.out.println("Hii, this is Om1 interface");
+    };
+}
+
 class Aleins implements Telusko
 {
     public void show()

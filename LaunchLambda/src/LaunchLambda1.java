@@ -41,5 +41,11 @@ public class LaunchLambda1
         IKJEI kj = () -> System.out.println("Hello Om!");
 
         kj.disp();
+
+        IKJEI kj2 = () ->
+        {
+            System.out.println("This side Om Rakibe");
+        };
+        kj2.disp();
     }
 }

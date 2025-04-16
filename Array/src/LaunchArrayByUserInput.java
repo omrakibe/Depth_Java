@@ -17,7 +17,7 @@ public class LaunchArrayByUserInput
             hello[i] = scan.nextInt();
         }
 
-        for (int i : hello)
+        for (int i : hello) //Enhanced loop
         {
             System.out.println(i);
         }
