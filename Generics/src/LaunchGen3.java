@@ -47,6 +47,7 @@ public class LaunchGen3
         ArrayList<Employee> empList1 = new ArrayList<>();
 
         humList1 = stdList1;
+//        stdList1 = humList1; //error
         humList1 = empList1;
 
         //UpperBound

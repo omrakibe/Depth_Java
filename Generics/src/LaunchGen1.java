@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 class SEB
 {
     Integer rollNo;
@@ -22,12 +23,13 @@ class SEB
                 '}';
     }
 }
+
 public class LaunchGen1
 {
     public static void main(String[] args)
     {
         //array follows type safety
-        int [] arr = new int[4];
+        int[] arr = new int[4];
         arr[1] = 20;
         int data = arr[1];
 
@@ -41,7 +43,7 @@ public class LaunchGen1
         data1 = data1.toUpperCase();
         System.out.println(data1);
 
-        String data2 =(String) aList1.get(1);
+        String data2 = (String) aList1.get(1);
         data2 = data2.toUpperCase();
         System.out.println(data2);
 
@@ -49,14 +51,15 @@ public class LaunchGen1
 
         //to avoid this exception and to bring type safety in collections, GENERICS comes to picture.
 
-        ArrayList <Float> aList2 = new ArrayList<>();
+        ArrayList<Float> aList2 = new ArrayList<>();
 //        aList2.add("Om"); //error occurs here //type safety
         aList2.add(40.67f);
 
-        ArrayList <SEB> se = new ArrayList<>();
+        ArrayList<SEB> se = new ArrayList<>();
         se.add(new SEB(65, "mp", 24.0));
 
-        for (SEB s : se) {
+        for (SEB s : se)
+        {
             System.out.println(s);
         }
     }
