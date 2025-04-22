@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class LaunchCollections
+{
+    public static void main(String[] args)
+    {
+        ArrayList<String> aList = new ArrayList<>();
+        aList.add("Om");
+        aList.add("Azam");
+        aList.add("Sejal");
+        aList.add("Chota Don");
+        aList.add("Rudra");
+        aList.add("Nobbie");
+
+        Collections.sort(aList);
+        System.out.println("Sort: " + aList);
+
+        Collections.shuffle(aList);
+        System.out.println("Suffle: " + aList);
+
+        System.out.println(Collections.frequency(aList, "Om"));
+
+    }
+}
