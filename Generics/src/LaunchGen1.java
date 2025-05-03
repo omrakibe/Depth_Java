@@ -52,7 +52,7 @@ public class LaunchGen1
         //to avoid this exception and to bring type safety in collections, GENERICS comes to picture.
 
         ArrayList<Float> aList2 = new ArrayList<>();
-        aList2.add("Om"); //error occurs here //type safety
+//        aList2.add("Om"); //error occurs here //type safety
         aList2.add(40.67f);
 
         ArrayList<SEB> se = new ArrayList<>();
