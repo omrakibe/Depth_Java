@@ -9,6 +9,14 @@ class Humans
     {
         System.out.println("Humans are creatures");
     }
+
+    @Override
+    public String toString()
+    {
+        return "Humans{" +
+                "age=" + age +
+                '}';
+    }
 }
 
 class Student extends Humans
