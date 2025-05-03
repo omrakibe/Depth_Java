@@ -14,7 +14,7 @@ public class LaunchCollections
         aList.add("Rudra");
         aList.add("Nobbie");
 
-        LinkedList<String> lList = new LinkedList<>(aList);
+        LinkedList<String> lList = new LinkedList<>(aList); //Change of ArrayList into LinkedList.
         System.out.println(lList.getClass().getName());
 
         Collections.sort(aList);
