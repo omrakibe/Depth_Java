@@ -56,11 +56,18 @@ public class LaunchGen1
         aList2.add(40.67f);
 
         ArrayList<SEB> se = new ArrayList<>();
-        se.add(new SEB(65, "mp", 24.0));
-
+        se.add(new SEB(65, "Om", 9.36));
         for (SEB s : se)
         {
             System.out.println(s);
         }
+
+//        ArrayList<SEB> se = new ArrayList<>();
+//        se.add(new SEB(65, "mp", 24.0));
+//
+//        for (SEB s : se)
+//        {
+//            System.out.println(s);
+//        }
     }
 }
