@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 
 public class LaunchCollections
 {
@@ -12,6 +13,9 @@ public class LaunchCollections
         aList.add("Chota Don");
         aList.add("Rudra");
         aList.add("Nobbie");
+
+        LinkedList<String> lList = new LinkedList<>(aList);
+        System.out.println(lList.getClass().getName());
 
         Collections.sort(aList);
         System.out.println("Sort: " + aList);
