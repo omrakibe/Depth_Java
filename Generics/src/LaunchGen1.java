@@ -13,15 +13,15 @@ class SEB
         this.marks = marks;
     }
 
-    @Override
-    public String toString()
-    {
-        return "SEB{" +
-                "rollNo=" + rollNo +
-                ", name='" + name + '\'' +
-                ", marks=" + marks +
-                '}';
-    }
+//    @Override
+//    public String toString()
+//    {
+//        return "SEB{" +
+//                "rollNo=" + rollNo +
+//                ", name='" + name + '\'' +
+//                ", marks=" + marks +
+//                '}';
+//    }
 }
 
 public class LaunchGen1
