@@ -55,11 +55,11 @@ public class LaunchComparator
         aList.add(player1);
         aList.add(player2);
         aList.add(player3);
-        System.out.println(aList);
+        System.out.println("List: " + aList);
 
-//        Sort sort = new Sort();
-//        Collections.sort(aList, sort);
-//        System.out.println(aList);
+        Sort sort = new Sort();
+        Collections.sort(aList, sort);
+        System.out.println("As per age: " + aList);
 
         Comparator<Cricketer> comp = new Comparator<Cricketer>()
         {
@@ -74,7 +74,7 @@ public class LaunchComparator
         };
 
         Collections.sort(aList, comp);
-        System.out.println(aList);
+        System.out.println("As per avg: " + aList);
 
         Comparator<Cricketer> comp1 = (Cricketer o1, Cricketer o2) ->
         {
