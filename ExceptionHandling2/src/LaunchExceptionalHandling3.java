@@ -64,7 +64,7 @@ public class LaunchExceptionalHandling3
         {
             System.out.println("Invalid Input");
         }
-
+        System.out.println(div.Number());
         System.out.println("Maths application ended smoothly");
     }
 }
