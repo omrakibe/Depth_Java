@@ -28,6 +28,7 @@ class Applicant
             System.out.println("Eligible, proceed further application!!");
         } else
         {
+            input();
             AgeLimitException ale = new AgeLimitException("Not Eligible!! Age should be greater then 18 and less then equal to 60");
             System.out.println(ale.getMessage());
             throw ale;
@@ -45,19 +46,16 @@ public class LaunchLiscence
 
         try
         {
-            app.input();
             app.verify();
         } catch (AgeLimitException ale)
         {
             try
             {
-                app.input();
                 app.verify();
             } catch (AgeLimitException ae)
             {
                 try
                 {
-                    app.input();
                     app.verify();
                 } catch (AgeLimitException al)
                 {
